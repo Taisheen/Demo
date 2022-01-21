@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kosugi&family=Shippori+Antique+B1&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+li,a,button{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Shippori Antique B1', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 3%;
+    background-color: rebeccapurple;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+   
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: #0088a9;
+}
+h1{
+    float:left;
+    font-family:'Anton', sans-serif ;
+    font-size: 40px;
+    cursor: pointer;
+    margin-right: auto;
+    letter-spacing: 2px;
+  
+}
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+
+body{
+    margin: 0;
+    padding:0px;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* make_room */
+.room{
+    text-align: center;
+    padding: 50px;
+    margin: 30px;
+    background-color: darkgray;
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    left: 25%;
+    border-radius: 10px;
+    font-family: 'Shippori Antique B1', sans-serif;
+  
+}
+
+.make_room{
+    padding: 5px;
+}
+.make_room input{
+   padding: 5px;
+   width: 50%;
+   border-radius: 5px;
+}
+
+.join_room input{
+    padding: 5px;
+    width: 50%;
+    border-radius: 5px;
+}
+
+#js-local-video{
+    background: rgb(121, 104, 104);
+    float: left;
+}
+
+#pear-video{
+    background: rgb(110, 93, 96);
+    
+}
+
+.controller-container{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    border: solid 3px #000000;
+    width: 400px;
+}
+.controller-container p{
+    margin: 0;
+    padding: 0;
+}
